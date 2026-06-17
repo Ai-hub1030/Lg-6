@@ -1,0 +1,16 @@
+{
+  "project": {
+    "name": "LG-6",
+    "version": "1.0.0",
+    "description": "Agent-based system for LG device management"
+  },
+  "agents": {
+    "default_timeout": 30,
+    "max_retries": 3,
+    "retry_delay": 2
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
